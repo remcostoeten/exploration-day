@@ -12,6 +12,10 @@ A AI-driven chat bot that does not hallucinate and answers only based on our dat
 
 Something along the lines of a `/` menu allows to prompt or give hints but also limit promppting. E.g. What in an question called `root square of 81` doing `/help` and typing `root square of 81` would give no answer but asking `How do i calculate root square` will give hints.
 
+## Non AI performance optimalization
+
+Want to check how certain values in the `next.config.ts` regerading css module bundling impact performance via analyzer.
+
 ## Tech stack
 
 NextJS 15
@@ -19,4 +23,4 @@ TypeScript
 CSS Modules
 Ollama local (mistral most likely)
 Vercel AiSDK 
-..
+SQLite 

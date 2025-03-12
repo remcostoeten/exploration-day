@@ -1,0 +1,92 @@
+.feedbackContainer {
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 1px solid #eaeaea;
+}
+
+.feedbackQuestion {
+    font-size: 12px;
+    color: #666;
+    margin: 0 0 8px 0;
+}
+
+.buttonContainer {
+    display: flex;
+    gap: 8px;
+}
+
+.feedbackButton {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    background-color: white;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.feedbackButton:hover {
+    background-color: #f0f0f0;
+    border-color: #5a17ce;
+}
+
+.feedbackThanks {
+    font-size: 12px;
+    color: #5a17ce;
+    margin-top: 8px;
+    font-style: italic;
+}
+
+.commentContainer {
+    margin-top: 8px;
+}
+
+.commentPrompt {
+    font-size: 12px;
+    color: #666;
+    margin: 0 0 8px 0;
+}
+
+.commentInput {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    font-size: 12px;
+    resize: vertical;
+}
+
+.commentActions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.cancelButton {
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    background-color: white;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.submitButton {
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: 1px solid #5a17ce;
+    background-color: #5a17ce;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.submitButton:disabled {
+    background-color: #c8c8c8;
+    border-color: #c8c8c8;
+    cursor: not-allowed;
+}

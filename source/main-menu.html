@@ -1,0 +1,1114 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-001">
+
+<head>
+    <meta charset="utf-8" />
+    <!-- v25828 -->
+
+
+    <title>Main menu - participants &ndash; All You Can Learn</title>
+
+
+
+    <meta name="description"
+        content="To make navigating on our platform even easier for all users, we have created a new main menu.In this article we explain how you, as a..." />
+    <meta property="og:image" content="/hc/theming_assets/01HZKSQ6NSC5VC2W8N4WQBMSGK" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="All You Can Learn" />
+    <meta property="og:title" content="Main menu - participants" />
+    <meta property="og:description"
+        content="To make navigating on our platform even easier for all users, we have created a new main menu.In this article we explain how you, as a participant can navigate through the new menu between your cou..." />
+    <meta property="og:url"
+        content="https://support.allyoucanlearn.nl/hc/en-001/articles/8579994244509-Main-menu-participants" />
+    <link rel="canonical"
+        href="https://support.allyoucanlearn.nl/hc/en-001/articles/8579994244509-Main-menu-participants">
+    <link rel="alternate" hreflang="en-001"
+        href="https://support.allyoucanlearn.nl/hc/en-001/articles/8579994244509-Main-menu-participants">
+    <link rel="alternate" hreflang="nl"
+        href="https://support.allyoucanlearn.nl/hc/nl/articles/8579994244509-Hoofdmenu-deelnemers">
+    <link rel="alternate" hreflang="x-default"
+        href="https://support.allyoucanlearn.nl/hc/nl/articles/8579994244509-Hoofdmenu-deelnemers">
+
+    <link rel="stylesheet" href="//static.zdassets.com/hc/assets/application-a42a464885a505c24ac3b0ab35047489.css"
+        media="all" id="stylesheet" />
+    <link rel="stylesheet" type="text/css"
+        href="/hc/theming_assets/13388265/4903612205725/style.css?digest=25594973247261">
+
+    <link rel="icon" type="image/x-icon" href="/hc/theming_assets/01HZKSQ6GVY80014HWWZB7KK6D">
+
+    <script>
+        window.ga = window.ga || function () { (ga.q = ga.q || []).push(arguments) }; ga.l = +new Date;
+        ga('create', 'UA-72524268-27', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <script
+        type="text/javascript">window.Theme = Object.assign(window.Theme || {}, { assets: {}, locale: "en-001", signedIn: false });</script>
+    <script type="text/javascript" src="/hc/theming_assets/01HZKSQ4ZJA6FYCQWK6STZYS5G"></script>
+
+
+    <link rel="stylesheet" href="/hc/theming_assets/01HZKSPCAKMGEGAV4624TXAX9K">
+    <link rel="stylesheet" href="/hc/theming_assets/01HZKSPRN40TDTVZRWRCN4XDCS">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.0/css/all.css">
+
+
+    <style id="settings-styles">
+        .request_ticket_form_id {
+            display: none;
+        }
+    </style>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body class="community-enabled">
+
+
+
+
+    <a class="sr-only sr-only-focusable" tabindex="1" href="#page-container">
+        Skip to main content
+    </a>
+
+    <div class="layout flex flex-1 flex-column" x-data="Widgets.mobileMenu">
+
+
+        <header class="header relative border-bottom fixed-header sticky-header"
+            x-data="Widgets.header({ isFixed: true, isSticky: true })"
+            :class="{ 'text-header bg-header': isStuck, 'shadow': isStuck, 'border-bottom': !isFixed }">
+
+            <nav class="navbar container h-full"">
+
+      
+      <a href=" /hc/en-001" class="navbar-brand mr-auto">
+                <img class="block img-fluid" id="logo" src="/hc/theming_assets/01HZKSQ6NSC5VC2W8N4WQBMSGK"
+                    alt="All You Can Learn Help Centre home page">
+                <span class="navbar-tagline mx-3 white-space-no-wrap lg:font-size-lg">
+                    Help Center
+                </span>
+                </a>
+
+
+                <button class="navbar-toggle ml-2 lg:hidden" x-ref="toggle" :aria-expanded="isOpen && 'true'"
+                    @click="toggle" @keydown.escape="toggle">
+                    <span></span>
+                    <span class="sr-only">Toggle navigation menu</span>
+                </button>
+
+
+                <div class="backdrop lg:hidden" x-cloak x-show="isOpen" @click="close"
+                    x-transition:enter="transition-fast" x-transition:enter-start="opacity-0"
+                    x-transition:enter-end="opacity-100" x-transition:leave="transition-fast"
+                    x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0">
+                </div>
+
+
+
+                <div class="nav menu menu-slide-in menu-links-right lg:flex lg:align-items-center lg:font-size-md lg:menu-expanded lg:justify-content-end"
+                    x-cloak x-show="isOpen" :class="{ 'text-header': isOpen }" x-transition:enter="transition-fast"
+                    x-transition:enter-start="translate-x-full" x-transition:enter-end="translate-x-0"
+                    x-transition:leave="transition-fast" x-transition:leave-start="translate-x-0 text-header"
+                    x-transition:leave-end="translate-x-full text-header">
+
+
+
+
+                    <a class="nav-link header-link" href="https://www.allyoucanlearn.nl" x-data="link">
+                        Terug naar allyoucanlearn.nl
+                    </a>
+
+                    <a class="nav-link header-link" href="/hc/en-001/community/topics">Community</a>
+
+                    <a class="nav-link header-link" href="/hc/en-001/requests/new">Submit a request</a>
+
+
+
+                    <a class="nav-link" rel="nofollow" data-auth-action="signin" title="Opens a dialogue" role="button"
+                        href="/hc/en-001/signin?return_to=https%3A%2F%2Fsupport.allyoucanlearn.nl%2Fhc%2Fen-001%2Farticles%2F8579994244509-Main-menu-participants">
+                        Sign in
+                    </a>
+                </div>
+
+            </nav>
+        </header>
+
+
+
+
+
+        <main role="main">
+            <div class="bg-gray-100 border-bottom">
+                <div class="container">
+
+
+                    <div class="row align-items-center pt-4">
+                        <div class="col font-size-md">
+                            <nav aria-label="Current location">
+                                <ol class="breadcrumbs">
+
+                                    <li>
+
+                                        <a href="/hc/en-001">All You Can Learn</a>
+
+                                    </li>
+
+                                    <li>
+
+                                        <a href="/hc/en-001/categories/4906127425053-For-participants">For
+                                            participants</a>
+
+                                    </li>
+
+                                    <li>
+
+                                        <a href="/hc/en-001/sections/4929750601757-Starting-a-course">Starting a course
+                                        </a>
+
+                                    </li>
+
+                                </ol>
+                            </nav>
+
+                        </div>
+                        <div class="md:col-4">
+                            <div class="search mb-4">
+                                <h2 class="sr-only">Search</h2>
+                                <form role="search" class="form-field mb-0" data-search="" data-instant="true"
+                                    autocomplete="off" action="/hc/en-001/search" accept-charset="UTF-8" method="get">
+                                    <input name="utf8" type="hidden" value="&#x2713;" autocomplete="off" /><input
+                                        type="hidden" name="category" id="category" value="4906127425053"
+                                        autocomplete="off" />
+                                    <input type="search" name="query" id="query" placeholder="Search" autocomplete="off"
+                                        aria-label="Search" />
+                                </form>
+                                <svg class="search-icon fill-current transition" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 12 12" aria-hidden="true">
+                                    <use xlink:href="#icon-search" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container" id="page-container">
+                <div class="row">
+
+                    <article class="col pb-6" itemscope itemtype="http://schema.org/Article">
+
+
+                        <div class="mb-5">
+                            <h1 class="font-size-4xl mt-5 lg:font-size-5xl lg:mt-8" title="Main menu - participants"
+                                itemprop="name">
+                                Main menu - participants
+
+                            </h1>
+
+
+                            <div class="flex">
+                                <div class="media">
+
+
+                                    <div class="media-body font-size-md align-self-center">
+
+                                        <ul class="list-divider">
+
+                                            <li class="text-gray-600">
+
+                                                Updated
+                                                <time datetime="2025-02-24T13:42:02Z" title="2025-02-24T13:42:02Z"
+                                                    data-datetime="relative">24 February 2025 13:42</time>
+
+                                            </li>
+
+
+
+                                        </ul>
+                                    </div>
+
+
+
+
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <section class="content article-content mb-6" itemprop="articleBody">
+
+
+                            <div class="table-of-contents" data-element="table-of-contents"
+                                data-template="table-of-contents" data-selector=".content h2">
+                            </div>
+
+                            <p>To make navigating on our platform even easier for all users, we have created a new main
+                                menu.</p>
+                            <p>In this article we explain how you, <strong>as a participant </strong>can navigate
+                                through the new menu between your courses and your portfolio using the new menu. You can
+                                also view the details of your point of contact in the main menu, if you have set this
+                                up.</p>
+                            <p>&nbsp;</p>
+                            <p><img src="/hc/article_attachments/21014503971869" alt="hoofdmenu_deelnemers EN.gif"></p>
+                            <p>At the top of your screen you'll see <a
+                                    href="https://support.allyoucanlearn.nl/hc/en-001/articles/4908382980125"
+                                    target="_self" rel="undefined">the menu bar </a>after logging in. On the right side
+                                of the logo of your school, you can find the button of the new main menu on the right,
+                                namely three horizontal lines. By clicking this, you can expand the main menu.</p>
+                            <p>&nbsp;</p>
+                            <p>The main menu allows you to navigate to the following screens:</p>
+                            <ol class="guide-markup"
+                                style="box-sizing: inherit; font-weight: 400;  padding: 0px 0px 0px 1.3em; list-style: outside decimal; color: #2f3941; font-family: -apple-system, ' system-ui' , ' Segoe UI' , Helvetica, Arial, sans-serif; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px;  white-space: normal; background-color: #f8f9f9;  text-decoration-style: initial; text-decoration-color: initial;">
+                                <li class="guide-markup" style="box-sizing: inherit; font-weight: inherit;"><a
+                                        class="guide-markup"
+                                        style="box-sizing: inherit; font-weight: inherit; border-radius: 4px; color: #1771b9; outline: transparent solid 2px;   text-decoration: none;"
+                                        tabindex="-1" target="_blank" rel="noopener noreferrer">My courses</a></li>
+                                <li class="guide-markup" style="box-sizing: inherit; font-weight: inherit;"><a
+                                        href="/hc/en-001/articles/8578966708509">Portfolio</a></li>
+                            </ol>
+                            <p><span style="background-color: transparent; color: #000000;"><em>Do you want to print
+                                        this article? Read&nbsp;</em></span><a
+                                    href="https://support.allyoucanlearn.nl/hc/en-001/articles/4908761919005-Print-online-article-from-browser"><span
+                                        style="background-color: transparent; color: #1155cc;"><em><span
+                                                class="wysiwyg-underline">here</span></em></span></a><span
+                                    style="background-color: transparent; color: #000000;"><em> how to do
+                                        that.</em></span></p>
+
+
+
+
+                            <section class="my-6">
+                                <p class="mb-3 text-gray-600">
+                                    Related to
+                                </p>
+                                <ul class="list-divider font-size-md">
+
+                                    <li data-divider="|">
+                                        <a title="Search results"
+                                            href="/hc/en-001/search?content_tags=01GK9PNBS0GDSB1PHTENCMK7PV&amp;utf8=%E2%9C%93">
+                                            deelnemers
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </section>
+
+
+
+
+
+
+
+
+                        </section>
+
+
+
+
+                        <div class="mt-6">
+
+                            <ul class="share">
+                                <li>
+                                    <a href="https://www.facebook.com/share.php?title=Main+menu+-+participants&u=https%3A%2F%2Fsupport.allyoucanlearn.nl%2Fhc%2Fen-001%2Farticles%2F8579994244509-Main-menu-participants"
+                                        class="share-facebook" aria-label="Facebook">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false"
+                                            viewBox="0 0 12 12" aria-label="Share this page on Facebook">
+                                            <path fill="currentColor"
+                                                d="M6 0a6 6 0 01.813 11.945V7.63h1.552l.244-1.585H6.812v-.867c0-.658.214-1.242.827-1.242h.985V2.55c-.173-.024-.538-.075-1.23-.075-1.444 0-2.29.767-2.29 2.513v1.055H3.618v1.585h1.484v4.304A6.001 6.001 0 016 0z" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/share?lang=en&text=Main+menu+-+participants&url=https%3A%2F%2Fsupport.allyoucanlearn.nl%2Fhc%2Fen-001%2Farticles%2F8579994244509-Main-menu-participants"
+                                        class="share-twitter" aria-label="X Corp">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false"
+                                            viewBox="0 0 12 12" aria-label="Share this page on X Corp">
+                                            <path fill="currentColor"
+                                                d="M.0763914 0 3.60864 0 6.75369 4.49755 10.5303 0 11.6586 0 7.18498 5.11431 12 12 8.46775 12 5.18346 7.30333 1.12825 12 0 12 4.7531 6.6879z" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/shareArticle?mini=true&source=All+You+Can+Learn&title=Main+menu+-+participants&url=https%3A%2F%2Fsupport.allyoucanlearn.nl%2Fhc%2Fen-001%2Farticles%2F8579994244509-Main-menu-participants"
+                                        class="share-linkedin" aria-label="LinkedIn">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false"
+                                            viewBox="0 0 12 12" aria-label="Share this page on LinkedIn">
+                                            <path fill="currentColor"
+                                                d="M10.8 0A1.2 1.2 0 0112 1.2v9.6a1.2 1.2 0 01-1.2 1.2H1.2A1.2 1.2 0 010 10.8V1.2A1.2 1.2 0 011.2 0h9.6zM8.09 4.356a1.87 1.87 0 00-1.598.792l-.085.133h-.024v-.783H4.676v5.727h1.778V7.392c0-.747.142-1.47 1.068-1.47.913 0 .925.854.925 1.518v2.785h1.778V7.084l-.005-.325c-.05-1.38-.456-2.403-2.13-2.403zm-4.531.142h-1.78v5.727h1.78V4.498zm-.89-2.846a1.032 1.032 0 100 2.064 1.032 1.032 0 000-2.064z" />
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+
+
+                        </div>
+
+
+
+
+                        <div class="my-6" data-element="article-navigation" data-template="article-navigation"
+                            data-next-title="Volgende artikel" data-previous-title="Vorige artikel">
+                        </div>
+
+
+
+                        <div class="py-4 my-4 text-center border-top border-bottom">
+                            <h4 class="font-medium">
+                                Was this article helpful?
+                            </h4>
+                            <div class="button-group mb-4" role="group">
+                                <button type="button" class="button button-outline-primary" data-auth-action="signin"
+                                    aria-label="This article was helpful" aria-pressed="false">Yes</button>
+                                <button type="button" class="button button-outline-primary" data-auth-action="signin"
+                                    aria-label="This article was not helpful" aria-pressed="false">No</button>
+                            </div>
+                            <span class="block text-gray-600 font-size-sm mb-4">0 out of 0 found this helpful</span>
+                            <p class="my-5">
+                                Have more questions? <a href="/hc/en-001/requests/new">Submit a request</a>
+                            </p>
+                        </div>
+
+
+
+
+                        <footer class="row my-6">
+
+
+                            <section class="related-articles">
+
+                                <h2 class="related-articles-title">Related articles</h2>
+
+                                <ul>
+
+                                    <li>
+                                        <a href="/hc/en-001/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCB34sZMKBjoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCJ1Vgq%2FNBzoLbG9jYWxlSSILZW4tMDAxBjoGRVQ6CHVybEkiPi9oYy9lbi0wMDEvYXJ0aWNsZXMvNjY0MjQ5NzM1Mzc1Ny1DYW5ub3QtY29ubmVjdC10by1jb2FjaAY7CFQ6CXJhbmtpBg%3D%3D--281f213469e66da3567de7c7f5ec8c2306dddcbb"
+                                            rel="nofollow">Cannot connect to coach</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="/hc/en-001/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCB3cAUriBToYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCJ1Vgq%2FNBzoLbG9jYWxlSSILZW4tMDAxBjoGRVQ6CHVybEkiSi9oYy9lbi0wMDEvYXJ0aWNsZXMvNjQ2OTQ2MjM4MzY0NS1TdGFydGluZy13aXRoLWEtY291cnNlLXBhcnRpY2lwYW50cwY7CFQ6CXJhbmtpBw%3D%3D--13a56c91862ea333991a537183d1e4c9c7307216"
+                                            rel="nofollow">Starting with a course (participants)</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="/hc/en-001/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCJ25l857BDoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCJ1Vgq%2FNBzoLbG9jYWxlSSILZW4tMDAxBjoGRVQ6CHVybEkiQC9oYy9lbi0wMDEvYXJ0aWNsZXMvNDkyOTc5MzUzODQ2MS1UaGUtc3RydWN0dXJlLW9mLWEtY291cnNlBjsIVDoJcmFua2kI--50da4d31455fd4ee4a00b79aac707de7c61c9351"
+                                            rel="nofollow">The structure of a course</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="/hc/en-001/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCB3d%2FKBdEDoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCJ1Vgq%2FNBzoLbG9jYWxlSSILZW4tMDAxBjoGRVQ6CHVybEkiRi9oYy9lbi0wMDEvYXJ0aWNsZXMvMTc5OTQzMTg5MjkxODEtQ291cnNlLWNvbXBsZXRpb24tcGFydGljaXBhbnRzBjsIVDoJcmFua2kJ--6d46ccd12328b387b225ab96a01550567a05ce49"
+                                            rel="nofollow">Course completion (participants)</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="/hc/en-001/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCJ0LgB%2FQCToYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCJ1Vgq%2FNBzoLbG9jYWxlSSILZW4tMDAxBjoGRVQ6CHVybEkiUC9oYy9lbi0wMDEvYXJ0aWNsZXMvMTA3ODk0ODYzMzI4MjktTmF2aWdhdGlvbi12aWEtdGhlLW1lbnUtYmFyLXBhcnRpY2lwYW50cwY7CFQ6CXJhbmtpCg%3D%3D--e6b3d56a2b359fd5b5359eb0960293838c7b3b43"
+                                            rel="nofollow">Navigation via the menu bar (participants)</a>
+                                    </li>
+
+                                </ul>
+                            </section>
+
+
+
+
+                            <div data-recent-articles></div>
+
+                        </footer>
+
+
+
+                        <section id="comments" itemscope itemtype="http://schema.org/UserComments">
+
+
+                            <header class="border-top border-bottom py-2">
+                                <h3 class="mt-4">
+                                    Comments
+                                </h3>
+                                <div class="flex justify-content-between align-items-baseline text-gray-600">
+                                    <p>
+                                        0 comments
+                                    </p>
+
+                                </div>
+                            </header>
+
+
+
+
+
+
+
+
+
+                            <p class="text-gray-600 mt-4 font-size-md">
+                                Please <a data-auth-action="signin" rel="nofollow"
+                                    href="/hc/en-001/signin?return_to=https%3A%2F%2Fsupport.allyoucanlearn.nl%2Fhc%2Fen-001%2Farticles%2F8579994244509-Main-menu-participants">sign
+                                    in</a> to leave a comment.
+                            </p>
+
+                        </section>
+
+
+                    </article>
+
+
+                    <aside class="relative flex-first lg:col lg:mr-6 lg:max-w-12 lg:border-right">
+
+
+
+                        <div class="border-top border-bottom md:border-transparent my-4 lg:my-5 lg:pt-6">
+                            <h3 class="collapse-title lg:font-size-lg" data-toggle="collapse"
+                                data-target="#articles-in-section" aria-controls="articles-in-section"
+                                aria-expanded="false">
+                                Articles in this section
+                            </h3>
+                            <div class="collapse md:flex md:flex-column md:h-full" id="articles-in-section">
+                                <ul class="nav nav-pills flex-column py-3 md:py-0 font-size-md">
+
+                                    <li class="nav-item">
+                                        <a class="nav-link border-radius hover:underline"
+                                            href="/hc/en-001/articles/15006804195357-For-whom-is-All-You-Can-Learn">
+                                            For whom is All You Can Learn?
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link border-radius hover:underline"
+                                            href="/hc/en-001/articles/15621632769437-Redeeming-Prepaid-Codes-Participants">
+                                            Redeeming Prepaid Codes (Participants)
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link border-radius hover:underline"
+                                            href="/hc/en-001/articles/4929793538461-The-structure-of-a-course">
+                                            The structure of a course
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link border-radius hover:underline"
+                                            href="/hc/en-001/articles/4929758561693--Un-enrolling-a-course-participants">
+                                            (Un)enrolling a course (participants)
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link border-radius hover:underline"
+                                            href="/hc/en-001/articles/6469462383645-Starting-with-a-course-participants">
+                                            Starting with a course (participants)
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link border-radius hover:underline"
+                                            href="/hc/en-001/articles/8146118175389-Choosing-a-mentor">
+                                            Choosing a mentor
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link border-radius is-active"
+                                            href="/hc/en-001/articles/8579994244509-Main-menu-participants">
+                                            Main menu - participants
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link border-radius hover:underline"
+                                            href="/hc/en-001/articles/6642497353757-Cannot-connect-to-coach">
+                                            Cannot connect to coach
+                                        </a>
+                                    </li>
+
+                                </ul>
+
+                            </div>
+                        </div>
+                    </aside>
+
+
+                    <aside class="md:col md:max-w-13 hidden" x-data="{ tableOfContents: false }">
+                        <div :class="{ 'sticky top-0': tableOfContents }"
+                            @table-of-contents:render.camel="tableOfContents = $event.target.children.length > 0">
+
+                        </div>
+                    </aside>
+
+                </div>
+            </div>
+
+
+
+            <div class="bg-gray-100 border-top border-bottom -mb-6">
+                <div class="contact-blocks" id="contact-blocks">
+                    <script type="text/javascript">
+                        ready(function () {
+                            Util.renderTemplate(document.getElementById('contact-blocks'), 'contact-blocks', Theme.contactBlocks);
+                        })
+                    </script>
+                </div>
+            </div>
+
+
+
+            <div data-element="template" data-template="call-to-action">
+            </div>
+            <script
+                type="text/javascript">document.documentElement.classList.add('article-page', 'article-' + 8579994244509)</script>
+
+
+
+
+            <script type="text/template" id="tmpl-article-navigation">
+    <% if (previousArticle || nextArticle) { %>
+      <div class="row">
+        <% if (previousArticle) { %>
+          <div class="sm:col">
+            <% if (previousTitle) { %>
+              <h4 class="mb-2"><%= previousTitle %></h4>
+            <% } %>
+            <a href="<%= previousArticle.html_url %>"><%= previousArticle.title %></a>
+          </div>
+        <% } %>
+        <% if (nextArticle) { %>
+          <div class="sm:col text-right<% if (!previousArticle) { %> sm:col-offset-6<% } %>">
+            <% if (nextTitle) { %>
+              <h4 class="mb-2"><%= nextTitle %></h4>
+            <% } %>
+            <a href="<%= nextArticle.html_url %>"><%= nextArticle.title %></a>
+          </div>
+        <% } %>
+      </div>
+    <% } %>
+  </script>
+
+
+            <script type="text/template" id="tmpl-table-of-contents">
+      <% if (allItems.length > 1) { %>
+        <div class="border border-radius border-left-4 px-6 my-6 w-full">
+            <h3>
+                In dit artikel
+              </h3>
+          <ol class="mb-6 list-unstyled font-size-md">
+            <% allItems.forEach(function(item) { %>
+              <li class="list-item">
+                <a href="<%= item.html_url %>">
+                  <%= item.name %>
+                </a>
+                <%= partial('partial-table-of-contents', { items: item.children, partial: partial }) %>
+              </li>
+            <% }); %>
+          </ol>
+        </div>
+      <% } %>
+    </script>
+
+
+
+
+            <script type="text/template" id="tmpl-partial-table-of-contents">
+        <% if (items.length) { %>
+          <ol class="list-none mb-0">
+            <% items.forEach(function(item) { %>
+              <li class="list-item">
+                <a href="<%= item.html_url %>">
+                  <%= item.name %>
+                </a>
+                <%= partial('partial-table-of-contents', { items: item.children, partial: partial }) %>
+              </li>
+            <% }); %>
+          </ol>
+        <% } %>
+      </script>
+
+
+
+
+
+
+            <script type="text/javascript">
+                Theme = window.Theme || {};
+                Theme.contentTags = [{ id: "01GK9PNBS0GDSB1PHTENCMK7PV", name: "deelnemers" }];
+            </script>
+
+        </main>
+
+
+        <footer class="footer border-top" id="footer">
+
+
+
+            <div class="container py-7">
+
+                <nav class="nav font-size-md">
+
+
+                    <a class="nav-link" href="https://www.allyoucanlearn.nl" x-data="link">
+                        Terug naar allyoucanlearn.nl
+                    </a>
+
+                    <div class="relative" x-data="Widgets.dropdown" @click.away="close">
+                        <button class="nav-link not-a-button h-full" aria-haspopup="true" :aria-expanded="isExpanded"
+                            x-ref="toggle">
+                            <svg class="svg-icon mr-1 fill-current hidden" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24" aria-hidden="true">
+                                <use xlink:href="#icon-locales" />
+                            </svg>
+                            English (World)
+                            <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"
+                                aria-hidden="true" :class="{ 'rotate-180': isExpanded }">
+                                <use xlink:href="#icon-chevron-down" />
+                            </svg>
+                        </button>
+                        <div class="z-dropdown absolute my-2 bg-white border border-radius shadow-md min-w-dropdown"
+                            x-ref="menu" x-cloak x-show="isExpanded">
+                            <div class="py-2 font-size-sm text-left">
+
+                                <a class="dropdown-item"
+                                    href="/hc/change_language/nl?return_to=%2Fhc%2Fnl%2Farticles%2F8579994244509-Hoofdmenu-deelnemers"
+                                    dir="ltr" rel="nofollow">
+                                    Nederlands
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <a class="nav-link" href="https://www.linkedin.com/company/brainstud/" target="_blank">
+                        <svg class="svg-icon fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"
+                            aria-hidden="true">
+                            <path
+                                d="M10.8 0A1.2 1.2 0 0112 1.2v9.6a1.2 1.2 0 01-1.2 1.2H1.2A1.2 1.2 0 010 10.8V1.2A1.2 1.2 0 011.2 0h9.6zM8.09 4.356a1.87 1.87 0 00-1.598.792l-.085.133h-.024v-.783H4.676v5.727h1.778V7.392c0-.747.142-1.47 1.068-1.47.913 0 .925.854.925 1.518v2.785h1.778V7.084l-.005-.325c-.05-1.38-.456-2.403-2.13-2.403zm-4.531.142h-1.78v5.727h1.78V4.498zm-.89-2.846a1.032 1.032 0 100 2.064 1.032 1.032 0 000-2.064z">
+                            </path>
+                        </svg>
+                    </a>
+
+                    <a class="nav-link" href="https://www.instagram.com/allyoucanlearn.nl/" target="_blank">
+                        <svg class="svg-icon fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                            aria-hidden="true">
+                            <path
+                                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                            </path>
+                        </svg>
+                    </a>
+
+                    <a class="nav-link" href="https://www.youtube.com/channel/UCRUwYtG4PH4KIMcYw0y8AGA" target="_blank">
+                        <svg class="svg-icon fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
+                            aria-hidden="true">
+                            <path
+                                d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z">
+                            </path>
+                        </svg>
+                    </a>
+                </nav>
+
+
+                <div class="fixed bottom-0 left-0" data-element="back-to-top" data-template="back-to-top-link"
+                    data-threshold="250px">
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+
+    <script type="text/javascript" src="/hc/theming_assets/01HZKSPCEM8SZ72AF1RAGE8YAJ" defer></script>
+    <script type="text/javascript" src="/hc/theming_assets/01HZKSPEEJG136MQBBWXFXGM7S" defer></script>
+    <script type="text/javascript" src="/hc/theming_assets/01HZKSPYKAX2F7XG9D4BH71MJR" defer></script>
+    <script type="text/javascript" src="/hc/theming_assets/01HZKSQ69RAEQ1185B3AHSHZ90" defer></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/combine/npm/alpinejs@3.13.0/dist/cdn.min.js" defer>
+    </script>
+    <script type="text/javascript" src="/hc/theming_assets/01HZKSPKT5555XZ1YQ1FZKWRHE" defer></script>
+    <script type="text/javascript" src="/hc/theming_assets/01HZKSPCXYES4TJVZX7PKFSEAN" defer></script>
+    <script type="text/javascript" src="/hc/theming_assets/01HZKSPG08017ZAT4ZRMBNMRGT" defer></script>
+
+
+    <script type="text/template" id="tmpl-popular-keywords">
+        <div class="flex flex-first flex-wrap mt-5 mb-4 justify-content-center"
+          x-data="Widgets.popularKeywords"
+          x-init="parseKeywords('<%= keywords %>')">
+            <p class="font-semibold m-1">
+                Populaire zoekopdrachten:
+              </p>
+          <div class="flex flex-wrap align-items-center">
+            <template x-for="(keyword, index) in keywords" :key="index">
+              <div class="flex align-items-center m-1">
+                <a class="inline-block text-inherit badge bg-translucent blur text-inherit rounded px-3 py-2"
+                  :href="keyword.html_url"
+                  :title="keyword.title"
+                  x-text="keyword.title">
+                </a>
+              </div>
+            </template>
+          </div>
+        </div>
+      </script>
+
+
+    <script type="text/template" id="tmpl-contact-blocks">
+      <% var getColumnClasses = function(numberColumns) {
+        var classNames = 'col-12';
+        if (numberColumns >= 2) classNames += ' md:col-6';
+        if (numberColumns >= 3) classNames += ' lg:col-4';
+        if (numberColumns >= 4) classNames += ' xl:col-3';
+        return classNames;
+      } %>
+      <div class="container py-2">
+        <% if (heading) { %>
+          <h2 class="inline-flex align-items-baseline mt-6" x-data="{ src: Theme.assets['contact-blocks-heading'] }">
+            <template x-if="src">
+              <img class="svg-icon mr-2" src="/hc/theming_assets/01HZKSQ341GKEE0XWZYYFX7FHE" alt="" aria-hidden="true" :src="src" />
+            </template>
+            <%= heading %>
+          </h2>
+        <% } %>
+        <ul class="list-unstyled row justify-content-center my-5 mt-4">
+          <% blocks.forEach(function(block, index) { %>
+            <li class="<%= getColumnClasses(numberColumns) %> hover:img-grow">
+              <div class="p-6 h-full text-center transition">
+                <% if (imageHeight) { %>
+                  <img class="my-4 mx-auto " src="<%= images.length > index ? images[index] : images[images.length - 1] %>" alt="" style="height: <%= imageHeight %>; width: auto;" />
+                <% } %>
+                <h2 class="font-size-xl">
+                  <%= block.name %>
+                  <a class="link-stretched text-inherit ml-1 transition" href="<%= block.html_url %>" x-data="link">
+                    <svg class="svg-icon fill-current" viewBox="0 0 423 323" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M416,178 L277,317 C273,321 267,323 262,323 C256,323 251,321 246,317 C237,308 237,294 246,285 L347,184 L22,184 C10,184 0,174 0,162 C0,150 10,140 22,140 L347,140 L246,38 C237,30 237,16 246,7 C254,-2 268,-2 277,7 L416,146 C425,155 425,169 416,178 Z"></path>
+                    </svg>
+                  </a>
+                </h2>
+                <% if (block.description) { %>
+                  <p class="font-size-md mb-6">
+                    <%= block.description %>
+                  </p>
+                <% } %>
+              </div>
+            </li>
+          <% }) %>
+        </ul>
+      </div>
+    </script>
+
+    <script type="text/template" id="tmpl-call-to-action">
+      <div class="container">
+        <div class="card cta overflow-hidden my-6 border-0">
+          <div class="row">
+            <div class="p-9 sm:col-6 relative bg-center bg-cover" style="background-image: url('/hc/theming_assets/01HZKSQJ1ZJQZ0GH10QVXQTXSW')"></div>
+            <div class="p-6 sm:col-6 sm:px-6 sm:py-8">
+              
+                <h3 class="h2 md:font-size-3xl">
+                  
+                    Niet kunnen vinden wat je zoekt? 
+                  
+                </h3>
+              
+              
+              <a class="button button-primary button-lg my-4" href="/hc/en-001/requests/new">
+                
+                  Submit a request
+                
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </script>
+
+    <script type="text/template" id="tmpl-back-to-top-link">
+      <button class="flex button button-outline button-sm bg-white p-3 m-4">
+        <span class="sr-only">Return to top</span>
+        <svg class="fill-current" width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" aria-hidden="true">
+          <polygon points="12.4,40.1 25.8,53.6 40.5,38.8 40.5,97.5 59.5,97.5 59.5,38.8 74.2,53.6 87.6,40.1 50,2.5" />
+        </svg>
+      </button>
+    </script>
+
+    <svg xmlns="http://www.w3.org/2000/svg" class="hidden">
+        <symbol id="icon-search">
+            <circle cx="4.5" cy="4.5" r="4" fill="none" stroke="currentColor" />
+            <path stroke="currentColor" stroke-linecap="round" d="M11 11L7.5 7.5" />
+        </symbol>
+        <symbol id="icon-lock">
+            <rect width="12" height="9" x="2" y="7" fill="currentColor" rx="1" ry="1" />
+            <path fill="none" stroke="currentColor" d="M4.5 7.5V4a3.5 3.5 0 017 0v3.5" />
+        </symbol>
+        <symbol id="icon-star">
+            <polygon points="213 325 81 405 116 255 0 154 153 141 213 0 273 141 426 154 310 255 345 405"></polygon>
+        </symbol>
+        <symbol id="icon-chevron-down">
+            <path fill="none" stroke="currentColor" stroke-linecap="round" d="M3 4.5l2.6 2.6c.2.2.5.2.7 0L9 4.5" />
+        </symbol>
+        <symbol id="icon-agent">
+            <path fill="currentColor"
+                d="M6 0C2.7 0 0 2.7 0 6s2.7 6 6 6 6-2.7 6-6-2.7-6-6-6zm0 2c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zm2.3 7H3.7c-.3 0-.4-.3-.3-.5C3.9 7.6 4.9 7 6 7s2.1.6 2.6 1.5c.1.2 0 .5-.3.5z" />
+        </symbol>
+    </svg>
+
+    <script type="text/javascript">
+        Theme.assets['notification'] = "/hc/theming_assets/01HZKSPZAHR0GBM4EHSVWV5BN1";
+        Theme.alternativeLocales = [{ name: "Nederlands", url: "/hc/change_language/nl?return_to=%2Fhc%2Fnl%2Farticles%2F8579994244509-Hoofdmenu-deelnemers", direction: "ltr" }];
+
+
+        Theme.contactBlocks = {
+            blocks: [{
+                name: "Weet je niet waar je moet beginnen? ",
+                description: "Meld je aan en ontvang alle ins \u0026 outs over All You Can Learn!",
+                html_url: "https://brainstudbv.ac-page.com/aycl-aanmelden-onboarding-campagne"
+            }, {
+                name: "Hulp nodig?",
+                description: "Neem contact met ons op!",
+                html_url: "mailto:support@allyoucanlearn.nl"
+            }, {
+                name: "Follow us",
+                description: "Stay up to date with the latest news and information",
+                html_url: "https://www.twitter.com"
+            }, {
+                name: "Subscribe",
+                description: "Subscribe to our newsletter for release information, updates and helpful tips",
+                html_url: "https://www.youtube.com"
+            }].slice(0, 2),
+            heading: "",
+            images: [
+                "/hc/theming_assets/01HZKSQFKGX4N6GW19E6NHAJY7", "/hc/theming_assets/01HZKSQGD0KJC8TWZG05F1DDV2", "/hc/theming_assets/01HZKSQGHR1H4C81776MD52ZSF", "/hc/theming_assets/01HZKSQGP4P5V4WCM7CJG01WTP"
+            ],
+            imageHeight: "64px",
+            numberColumns: 2,
+            color: "white"
+        };
+    </script>
+
+
+
+
+
+
+    <script type="text/template" id="tmpl-article-list">
+  <div class="border-top border-bottom lg:border-transparent my-4 lg:pt-7" x-data="toggle({ isOpen: false })" @collapse:show.stop="open" @collapse:hide.stop="close">
+
+    
+    <h3 class="flex align-items-center justify-content-between my-4 font-size-lg cursor-pointer lg:hidden" data-toggle="collapse" data-target="#sidebar-article-navigation" aria-controls="sidebar-article-navigation" aria-expanded="false">
+      Categories
+      <svg class="fill-current pointer-events-none ml-3" :class="isOpen && 'rotate-180'" width="14px" viewBox="0 0 40 20" xmlns="http://www.w3.org/2000/svg">
+        <path d="M20,19.5 C19.4,19.5 18.9,19.3 18.4,18.9 L1.4,4.9 C0.3,4 0.2,2.4 1.1,1.4 C2,0.3 3.6,0.2 4.6,1.1 L20,13.8 L35.5,1.1 C36.6,0.2 38.1,0.4 39,1.4 C39.9,2.5 39.7,4 38.7,4.9 L21.7,18.9 C21.1,19.3 20.5,19.5 20,19.5 Z" fill-rule="nonzero"></path>
+      </svg>
+    </h3>
+
+    <div class="collapse lg:expand lg:flex-column" id="sidebar-article-navigation">
+      <ul class="list-unstyled font-size-lg w-full">
+        <% categories.forEach(function(category, index) { %>
+          <li class="font-semibold" x-data="toggle({ isOpen: <%= !!category.isActive %> })" @collapse:show.stop="open" @collapse:hide.stop="close">
+
+            
+            <div class="flex justify-content-between align-items-center">
+              <a class="h4 flex-1 py-3 my-0 text-inherit font-bold" :class="{ 'text-inherit': !isOpen }" href="<%= category.html_url %>">
+                <%= category.name %>
+              </a>
+              <button class="p-2 ml-1 not-a-button border-radius transition cursor-pointer hover:bg-gray-200 hidden lg:block" :class="{ 'is-active': isOpen }" :aria-expanded="isOpen" data-toggle="collapse" data-target="#category-<%= category.id %>">
+                <svg class="text-inherit fill-current pointer-events-none" :class="{ 'rotate-180': isOpen }" width="12px" height="12px" viewBox="0 0 324 190" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <path d="M162,190 C156,190 150,187 146,183 L7,38 C-2,29 -2,15 7,7 C16,-2 30,-2 39,7 L162,135 L285,7 C293,-2 308,-2 317,7 C326,15 326,29 317,38 L178,183 C174,187 168,190 162,190 Z"></path>
+                </svg>
+              </button>
+            </div>
+
+            <div class="hidden lg:block">
+              
+              <%= partial('partial-article-list-sections', {
+                id: 'category-' + category.id,
+                parentId: '#sidebar-article-navigation',
+                sections: category.sections,
+                activeCategoryId: activeCategoryId,
+                activeSectionId: activeSectionId,
+                activeArticleId: activeArticleId,
+                partial: partial
+              }) %>
+            </div>
+          </li>
+        <% }); %>
+      </ul>
+    </div>
+  </div>
+</script>
+
+
+    <script type="text/template" id="tmpl-section-list">
+  <% var maxSections =  5 %>
+  <div class="border-top border-bottom lg:border-transparent my-5 lg:pt-7" x-data="toggle({ isOpen: false })" @collapse:show.stop="open" @collapse:hide.stop="close">
+
+    
+    <h3 class="flex align-items-center justify-content-between my-4 font-size-lg cursor-pointer lg:hidden" data-toggle="collapse" data-target="#sidebar-section-navigation" aria-controls="sidebar-section-navigation" aria-expanded="false">
+      Toggle navigation menu
+      <svg class="fill-current pointer-events-none ml-3" :class="isOpen && 'rotate-180'" width="14px" viewBox="0 0 40 20" xmlns="http://www.w3.org/2000/svg">
+        <path d="M20,19.5 C19.4,19.5 18.9,19.3 18.4,18.9 L1.4,4.9 C0.3,4 0.2,2.4 1.1,1.4 C2,0.3 3.6,0.2 4.6,1.1 L20,13.8 L35.5,1.1 C36.6,0.2 38.1,0.4 39,1.4 C39.9,2.5 39.7,4 38.7,4.9 L21.7,18.9 C21.1,19.3 20.5,19.5 20,19.5 Z" fill-rule="nonzero"></path>
+      </svg>
+    </h3>
+
+    <div class="collapse lg:expand lg:flex-column" id="sidebar-section-navigation">
+      <ul class="list-unstyled font-size-md m-0 py-2">
+        <% categories.forEach(function(category, index) { %>
+          <li>
+            <h3 class="font-size-lg <% if (index === 0) { %>mt-4 lg:mt-0<% } else { %>mt-6<% } %>">
+              <a class="text-inherit" href="<%= category.html_url %>">
+                <%= category.name %>
+              </a>
+            </h3>
+            <%= partial('partial-section-list-sections', { parent: category, sections: category.sections, maxSections: maxSections, partial: partial }) %>
+          </li>
+        <% }); %>
+      </ul>
+    </div>
+  </div>
+</script>
+
+
+    <script type="text/template" id="tmpl-category-list">
+  <div class="list-unstyled my-5 border-top border-bottom lg:pt-7 lg:border-transparent" x-data="toggle({ isOpen: false })" @collapse:show.stop="open" @collapse:hide.stop="close">
+
+    
+    <h3 class="flex align-items-center justify-content-between my-4 font-size-lg cursor-pointer lg:hidden" data-toggle="collapse" data-target="#sidebar-category-navigation" aria-controls="sidebar-category-navigation" aria-expanded="false">
+      Categories
+      <svg class="fill-current pointer-events-none ml-3" :class="isOpen && 'rotate-180'" width="14px" viewBox="0 0 40 20" xmlns="http://www.w3.org/2000/svg">
+        <path d="M20,19.5 C19.4,19.5 18.9,19.3 18.4,18.9 L1.4,4.9 C0.3,4 0.2,2.4 1.1,1.4 C2,0.3 3.6,0.2 4.6,1.1 L20,13.8 L35.5,1.1 C36.6,0.2 38.1,0.4 39,1.4 C39.9,2.5 39.7,4 38.7,4.9 L21.7,18.9 C21.1,19.3 20.5,19.5 20,19.5 Z" fill-rule="nonzero"></path>
+      </svg>
+    </h3>
+
+    <div class="collapse lg:expand lg:flex-column" id="sidebar-category-navigation">
+      <h3 class="font-size-lg mt-2 hidden lg:block">
+        <a class="text-inherit" href="/hc/en-001">
+          Categories
+        </a>
+      </h3>
+      <ul class="list-unstyled font-size-md">
+        <% categories.forEach(function(category) { %>
+          <li>
+            <a class="block py-2 text-inherit<% if (category.isActive) { %> underline<% } %>" href="<%= category.html_url %>">
+              <%= category.name %>
+            </a>
+          </li>
+        <% }); %>
+      </ul>
+    </div>
+  </div>
+</script>
+
+
+
+
+    <script type="text/template" id="tmpl-partial-article-list-sections">
+  <% if (sections.length) { %>
+    <ul class="list-none pl-3 mb-0 font-size-base collapse" id="<%= id %>" :class="{ 'is-visible': isOpen }" data-parent="<%= parentId %>">
+      <% sections.forEach(function(section) { %>
+        <li class="font-medium" x-data="toggle({ isOpen: <%= !!section.isActive %> })" @collapse:show.stop="open" @collapse:hide.stop="close">
+
+          
+          <div class="flex justify-content-between align-items-center">
+            <a class="flex-1 py-2 text-inherit font-semibold" :class="{ 'text-inherit': !isOpen }" href="<%= section.html_url %>">
+              <%= section.name %>
+            </a>
+            <button class="p-2 ml-1 not-a-button border-radius transition cursor-pointer hover:bg-gray-200" :class="{ 'is-active': isOpen }" :aria-expanded="isOpen" data-toggle="collapse" data-target="#section-<%= section.id %>">
+              <svg class="text-inherit fill-current pointer-events-none" :class="{ 'rotate-180': isOpen }" width="12px" height="12px" viewBox="0 0 324 190" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M162,190 C156,190 150,187 146,183 L7,38 C-2,29 -2,15 7,7 C16,-2 30,-2 39,7 L162,135 L285,7 C293,-2 308,-2 317,7 C326,15 326,29 317,38 L178,183 C174,187 168,190 162,190 Z"></path>
+              </svg>
+            </button>
+          </div>
+
+          
+          <%= partial('partial-article-list-sections', {
+            id: 'section-' + section.id,
+            parentId: '#' + id,
+            sections: section.sections,
+            activeCategoryId: activeCategoryId,
+            activeSectionId: activeSectionId,
+            activeArticleId: activeArticleId,
+            partial: partial
+          }) %>
+
+          
+          <% if (section.articles.length) { %>
+            <ul class="list-none font-size-md pl-0 mb-0 collapse" :class="{ 'is-visible': isOpen }" id="section-<%= section.id %>" data-parent="#<%= id %>">
+              <% section.articles.forEach(function(article) { %>
+                <li>
+                  <a class="block px-3 py-2 text-inherit border-radius transition<% if (article.isActive) { %> bg-gray-100<% } %>" href="<%= article.html_url %>">
+                    <%= article.title %>
+                  </a>
+                </li>
+              <% }); %>
+            </ul>
+          <% } %>
+
+        </li>
+      <% }); %>
+    </ul>
+  <% } %>
+</script>
+
+
+    <script type="text/template" id="tmpl-partial-section-list-sections">
+  <% if (sections.length) { %>
+    <ul class="list-unstyled<% if (parent.hasOwnProperty('parent_section_id')) { %> pl-4 mb-0<% } %>">
+      <% sections.slice(0, maxSections).forEach(function(section) { %>
+        <li>
+          <a class="block py-2 text-inherit<% if (section.isActive) { %> underline<% } %>" href="<%= section.html_url %>">
+            <%= section.name %>
+          </a>
+          <%= partial('partial-section-list-sections', { parent: section, sections: section.sections, maxSections: maxSections, partial: partial }) %>
+        </li>
+      <% }); %>
+      <% if (sections.length > maxSections) { %>
+        <li>
+          <a class="block py-2 text-inherit" href="<%= parent.html_url %>">
+            See more
+          </a>
+        </li>
+      <% } %>
+    </ul>
+  <% } %>
+</script>
+
+
+    <!-- / -->
+
+
+    <script src="//static.zdassets.com/hc/assets/en-001.19f045ec87bede9ae5ed.js"></script>
+    <script src="https://brainstud.zendesk.com/auth/v2/host/without_iframe.js" data-brand-id="4903612205725"
+        data-return-to="https://support.allyoucanlearn.nl/hc/en-001/articles/8579994244509-Main-menu-participants"
+        data-theme="hc" data-locale="en-001" data-auth-origin="4903612205725,true,true"></script>
+
+    <script type="text/javascript">
+        /*
+      
+          Greetings sourcecode lurker!
+      
+          This is for internal Zendesk and legacy usage,
+          we don't support or guarantee any of these values
+          so please don't build stuff on top of them.
+      
+        */
+
+        HelpCenter = {};
+        HelpCenter.account = { "subdomain": "brainstud", "environment": "production", "name": "Brainstud" };
+        HelpCenter.user = { "identifier": "da39a3ee5e6b4b0d3255bfef95601890afd80709", "email": null, "name": "", "role": "anonymous", "avatar_url": "https://assets.zendesk.com/hc/assets/default_avatar.png", "is_admin": false, "organizations": [], "groups": [] };
+        HelpCenter.internal = { "asset_url": "//static.zdassets.com/hc/assets/", "web_widget_asset_composer_url": "https://static.zdassets.com/ekr/snippet.js", "current_session": { "locale": "en-001", "csrf_token": null, "shared_csrf_token": null }, "usage_tracking": { "event": "article_viewed", "data": "BAh7CDoLbG9jYWxlSSILZW4tMDAxBjoGRVQ6D2FydGljbGVfaWRsKwidVYKvzQc6Cl9tZXRheww6D2FjY291bnRfaWRpA+lJzDoTaGVscF9jZW50ZXJfaWRsKwgdWKBBdgQ6DWJyYW5kX2lkbCsInUoQtnUEOgx1c2VyX2lkMDoTdXNlcl9yb2xlX25hbWVJIg5BTk9OWU1PVVMGOwZUOwBJIgtlbi0wMDEGOwZUOhphbm9ueW1vdXNfdHJhY2tpbmdfaWQw--c7b93116de8c921947b0f1c8e4d323a3aba03009", "url": "https://support.allyoucanlearn.nl/hc/activity" }, "current_record_id": "8579994244509", "current_record_url": "/hc/en-001/articles/8579994244509-Main-menu-participants", "current_record_title": "Main menu - participants", "current_text_direction": "ltr", "current_brand_id": 4903612205725, "current_brand_name": "All You Can Learn", "current_brand_url": "https://allyoucanlearn.zendesk.com", "current_brand_active": true, "current_path": "/hc/en-001/articles/8579994244509-Main-menu-participants", "show_autocomplete_breadcrumbs": true, "user_info_changing_enabled": false, "has_user_profiles_enabled": false, "has_end_user_attachments": true, "user_aliases_enabled": false, "has_anonymous_kb_voting": false, "has_multi_language_help_center": true, "show_at_mentions": false, "embeddables_config": { "embeddables_web_widget": true, "embeddables_connect_ipms": false }, "answer_bot_subdomain": "static", "general_settings_url": "https://support.allyoucanlearn.nl/hc/admin/general_settings?locale=en-001", "user_segments_url": "https://brainstud.zendesk.com/knowledge/user_segments?brand_id=4903612205725", "has_gather": true, "has_ckeditor": true, "has_community_enabled": true, "has_community_badges": true, "has_community_post_content_tagging": false, "has_gather_content_tags": true, "has_guide_content_tags": true, "has_user_segments": true, "has_answer_bot_web_form_enabled": true, "has_edit_user_profile_v2": true, "has_garden_modals": false, "theming_cookie_key": "hc-da39a3ee5e6b4b0d3255bfef95601890afd80709-2-preview", "is_preview": false, "has_alternate_templates": true, "arrange_articles_url": "https://brainstud.zendesk.com/knowledge/arrange?brand_id=4903612205725", "article_verification_url": "https://brainstud.zendesk.com/knowledge/verification?brand_id=4903612205725", "has_article_verification": true, "guide_language_settings_url": "https://support.allyoucanlearn.nl/hc/admin/language_settings?locale=en-001", "docs_importer_url": "https://brainstud.zendesk.com/knowledge/import_articles?brand_id=4903612205725", "content_tags_url": "https://brainstud.zendesk.com/knowledge/content_tags?brand_id=4903612205725", "community_badges_url": "https://brainstud.zendesk.com/knowledge/community_badges?brand_id=4903612205725", "community_settings_url": "https://brainstud.zendesk.com/knowledge/community_settings?brand_id=4903612205725", "gather_plan_state": "subscribed", "search_settings_url": "https://brainstud.zendesk.com/knowledge/search_settings?brand_id=4903612205725", "has_search_settings_in_plan": true, "theming_api_version": 3, "theming_settings": { "color_primary": "rgba(100, 0, 205, 1)", "color_primary_inverse": "#fff", "color_secondary": "#2698da", "color_secondary_inverse": "#fff", "color_tertiary": "#fc573b", "color_tertiary_inverse": "#fff", "color_heading": "#25211e", "color_text": "rgba(60, 60, 80, 1)", "color_link": "rgba(100, 0, 205, 1)", "color_outline": "rgba(255, 255, 255, 1)", "color_border": "rgba(240, 242, 255, 1)", "color_gray_100": "rgba(240, 242, 255, 1)", "color_gray_200": "rgba(255, 255, 255, 1)", "color_gray_600": "#718096", "bg_color": "rgba(240, 242, 255, 1)", "heading_font": "'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif", "text_font": "'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif", "base_font_size": "16px", "favicon": "/hc/theming_assets/01HZKSQ6GVY80014HWWZB7KK6D", "logo": "/hc/theming_assets/01HZKSQ6NSC5VC2W8N4WQBMSGK", "logo_height": "58px", "tagline": "Help Center", "homepage_background_image": "/hc/theming_assets/01HZKSQ7W39N6JA1MZ2V8XZGVQ", "community_background_image": "/hc/theming_assets/01HZKSQ914Z53E4NVP8AKAQTQP", "content_block_1_image": "/hc/theming_assets/01HZKSQ9REB23CXM0RKP2DWP1Z", "content_block_2_image": "/hc/theming_assets/01HZKSQAG59194AH1NT3FXWFVD", "content_block_3_image": "/hc/theming_assets/01HZKSQB66R88H306TXHB82868", "content_block_4_image": "/hc/theming_assets/01JNGYZ39ZZBC01ZT7482BXQVB", "content_block_5_image": "/hc/theming_assets/01JNGTYM0H4G54F3N8PBEM0VVW", "content_block_6_image": "/hc/theming_assets/01HZKSQC870VQBQK56MTH6NA3X", "content_block_7_image": "/hc/theming_assets/01HZKSQCC4BQDTZ6JKVASV4RAY", "content_block_8_image": "/hc/theming_assets/01HZKSQCG4BDT6YDS8KG76J0FB", "custom_block_1_image": "/hc/theming_assets/01HZKSQCVPCHT6CKSYF2Y02VFQ", "custom_block_2_image": "/hc/theming_assets/01HZKSQDHGGVQBRZDPGXQ9RZ8J", "custom_block_3_image": "/hc/theming_assets/01HZKSQEPJEN6XF6K7SDP5J9NZ", "custom_block_4_image": "/hc/theming_assets/01HZKSQEVEYR8G6WGM9C2R16DY", "contact_block_1_image": "/hc/theming_assets/01HZKSQFKGX4N6GW19E6NHAJY7", "contact_block_2_image": "/hc/theming_assets/01HZKSQGD0KJC8TWZG05F1DDV2", "contact_block_3_image": "/hc/theming_assets/01HZKSQGHR1H4C81776MD52ZSF", "contact_block_4_image": "/hc/theming_assets/01HZKSQGP4P5V4WCM7CJG01WTP", "cta_block_image": "/hc/theming_assets/01HZKSQJ1ZJQZ0GH10QVXQTXSW", "header_search_style": "none", "instant_search": true, "scoped_kb_search": true, "scoped_community_search": true, "search_placeholder": "", "search_translucent": true, "show_search_button": false, "header_layout": "links-right", "fixed_header": true, "sticky_header": true, "nav_style": "slide-in", "nav_breakpoint": "lg", "full_width_header": false, "header_height": "72px", "color_header_link": "rgba(60, 60, 80, 1)", "color_header_link_fixed": "#fefefe", "bg_color_header": "#fff", "header_link_1_text": "Terug naar allyoucanlearn.nl", "header_link_1_url": "https://www.allyoucanlearn.nl", "header_link_2_text": "", "header_link_2_url": "", "header_link_3_text": "", "header_link_3_url": "", "show_submit_a_request_link": true, "category_dropdown_style": "none", "notification_location": "none", "notification_content": "notification_content", "color_notification": "#fff", "bg_color_notification": "#ef526e", "back_to_top_link_style": "standard", "boxed_layout": false, "bg_color_boxed": "#F7F7F7", "hero_heading": "Hoi! Hoe kunnen we je helpen?", "color_hero_heading": "rgba(255, 255, 255, 1)", "hero_text": "", "color_hero_text": "#bac8d9", "hero_image_style": "standard", "bg_color_hero": "rgba(4, 4, 4, 0.05)", "bg_color_secondary_hero": "rgba(4, 4, 4, 0.05)", "bg_gradient_hero": "linear", "hero_content_alignment": "center", "popular_keywords_style": "badges", "popular_keywords_heading": "Populaire zoekopdrachten:", "popular_keywords": "inloggen, abonnement verlengen, leerprogramma aanpassen, coach koppelen", "promoted_videos_heading": "", "promoted_video_ids": "", "recent_activity": "none", "custom_block_style": "none", "color_custom_blocks": "white", "bg_color_custom_blocks": "rgba(4, 4, 4, 0)", "custom_blocks_heading": "", "number_custom_blocks": "4", "number_custom_block_columns": "4", "custom_block_alignment": "center", "custom_block_image_height": "96px", "custom_block_1_title": "Getting started", "custom_block_1_description": "Discover everything you need to know to start your journey", "custom_block_1_url": "#", "custom_block_2_title": "Community", "custom_block_2_description": "Share knowledge with other users in our community forum", "custom_block_2_url": "/hc/en-us/community/topics", "custom_block_3_title": "Submit a request", "custom_block_3_description": "Reach out to our friendly team for personalized advice", "custom_block_3_url": "/hc/en-us/requests/new", "custom_block_4_title": "Videos", "custom_block_4_description": "Access our extensive library of helpful videos and tutorials", "custom_block_4_url": "#", "content_block_style": "1-boxes", "color_content_blocks": "white", "bg_color_content_blocks": "rgba(4, 4, 4, 0)", "content_blocks_heading": "", "number_content_block_columns": "4", "content_block_alignment": "center", "content_block_image_height": "96px", "article_list_style": "2-unstyled", "article_list_columns": "1", "article_list_excerpt": 0, "promoted_article_style": "icon", "promoted_article_list_style": "none", "promoted_article_list_position": "after", "promoted_articles_heading": "Promoted articles", "promoted_article_list_columns": "3", "promoted_articles_alignment": "center", "promoted_article_list_excerpt": 0, "contact_block_style": "boxes", "color_contact_blocks": "white", "contact_blocks_heading": "", "number_contact_blocks": "2", "number_contact_block_columns": "2", "contact_block_image_height": "64px", "contact_block_1_title": "Weet je niet waar je moet beginnen? ", "contact_block_1_description": "Meld je aan en ontvang alle ins \u0026 outs over All You Can Learn!", "contact_block_1_url": "https://brainstudbv.ac-page.com/aycl-aanmelden-onboarding-campagne", "contact_block_2_title": "Hulp nodig?", "contact_block_2_description": "Neem contact met ons op!", "contact_block_2_url": "mailto:support@allyoucanlearn.nl", "contact_block_3_title": "Follow us", "contact_block_3_description": "Stay up to date with the latest news and information", "contact_block_3_url": "https://www.twitter.com", "contact_block_4_title": "Subscribe", "contact_block_4_description": "Subscribe to our newsletter for release information, updates and helpful tips", "contact_block_4_url": "https://www.youtube.com", "cta_style": "boxed-image", "cta_location": "internal", "cta_element_heading": "Niet kunnen vinden wat je zoekt? ", "color_heading_cta": "#212121", "cta_element_body": "", "color_text_cta": "rgba(60, 60, 80, 1)", "cta_element_link_text": "", "bg_color_cta": "rgba(255, 255, 255, 1)", "subsection_style": "list", "category_sidebar": "section-list", "section_sidebar": "section-list", "show_follow_section": false, "article_metadata": "date-start", "show_follow_article": false, "table_of_contents_style": "full-width", "table_of_contents_heading": "In dit artikel", "article_navigation_style": "standard", "next_article_title": "Volgende artikel", "previous_article_title": "Vorige artikel", "show_article_voting": true, "show_article_sharing": true, "share_title": "", "show_recently_viewed_articles": true, "show_related_articles": true, "show_article_comments": true, "article_sidebar": "articles-in-section", "note_title": "Note", "color_note": "#61a5ff", "warning_title": "Warning", "color_warning": "#ef526e", "enable_lightboxes": false, "enable_video_player": false, "form_list_style": "boxes", "form_tip": "Geef alle info over uw aanvraag op. Een medewerker van ons supportteam zal zo spoedig mogelijk reageren.", "community_image_style": "standard", "show_recent_activity_community": true, "show_follow_topic": true, "show_follow_post": true, "show_post_sharing": true, "footer_layout": "links-left", "footer_shape": "none", "color_footer_link": "rgba(30, 30, 50, 1)", "bg_color_footer": "rgba(240, 242, 255, 1)", "footer_link_1_text": "Terug naar allyoucanlearn.nl", "footer_link_1_url": "https://www.allyoucanlearn.nl", "footer_link_2_text": "", "footer_link_2_url": "", "footer_link_3_text": "", "footer_link_3_url": "", "facebook_link": "", "twitter_link": "", "linkedin_link": "https://www.linkedin.com/company/brainstud/", "instagram_link": "https://www.instagram.com/allyoucanlearn.nl/", "youtube_link": "https://www.youtube.com/channel/UCRUwYtG4PH4KIMcYw0y8AGA", "show_credit_link": false, "use_translations": false, "read_more_text": "Lees meer" }, "has_pci_credit_card_custom_field": true, "help_center_restricted": false, "is_assuming_someone_else": false, "flash_messages": [], "user_photo_editing_enabled": true, "user_preferred_locale": "nl", "base_locale": "en-001", "has_user_session_cookie_enabled": false, "has_custom_statuses_enabled": true, "has_generative_answers_in_help_center": false, "has_generative_answers_in_help_center_for_anonymous": false, "has_hc_generative_answers_setting_enabled": false, "has_intl_date_format_enabled": true, "has_guide_service_catalog": false, "version": "v25828" };
+    </script>
+
+
+    <script src="//static.zdassets.com/hc/assets/hc_enduser-2feb24e49ff4067b1d203d3303c1cbca.js"></script>
+    <script type="text/javascript"
+        src="/hc/theming_assets/13388265/4903612205725/script.js?digest=25594973247261"></script>
+
+</body>
+
+</html>

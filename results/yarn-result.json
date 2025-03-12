@@ -1,0 +1,31 @@
+{
+  "packageManager": "yarn",
+  "success": true,
+  "nodeVersion": "v23.9.0",
+  "metrics": {
+    "timing": {
+      "installTime": 5.851291828,
+      "startupTime": 1.281026705,
+      "totalTime": ,
+      "timeToReady": 1.281026705
+    },
+    "resources": {
+      "diskUsageMB": 633,
+      "fileCount": 24095,
+      "memoryUsageKB": 94292,
+      "cpuUsage": 17.0
+    }
+  },
+  "build": 
+[1;34m>>> Starting build benchmark for yarn[0m
+
+[1;34m>>> Build for yarn completed in 10.099217130 seconds[0m
+{"duration": 10.099217130, "exitCode": 1, "sizeInMB": 46, "output": "yarn run v1.22.22\n$ next build\n   ▲ Next.js 15.2.2\n\n   Creating an optimized production build ...\n ✓ Compiled successfully\n   Linting and checking validity of types ...\n\nFailed to compile.\n\n./src/app/api/chat/route.ts\n33:52  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any\n\n./src/app/api/chat/stream/route.ts\n2:10  Error: 'toast' is defined but never used.  @typescript-eslint/no-unused-vars\n\n./src/modules/chat/components/MessageInput.tsx\n1:8  Error: 'styles' is defined but never used.  @typescript-eslint/no-unused-vars\n\n./src/modules/chat/components/MessageList.tsx\n10:34  Error: 'onFeedback' is defined but never used.  @typescript-eslint/no-unused-vars\n\n./src/modules/chat/components/suggested-questions/SuggestedQuestions.tsx\n1:8  Error: 'styles' is defined but never used.  @typescript-eslint/no-unused-vars\n\n./src/modules/database/index.ts\n5:9  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any\n\n./src/modules/support/utils/scraper.ts\n78:14  Error: 'error' is defined but never used.  @typescript-eslint/no-unused-vars\n\n./src/views/SupportChatbot.tsx\n139:21  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any\n\ninfo  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/app/api-reference/config/eslint#disabling-rules\nerror Command failed with exit code 1.\ninfo Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.\n"},
+  "details": {
+    "installExitCode": 0,
+    "installCommand": "yarn",
+    "startCommand": "yarn dev",
+    "buildCommand": "yarn build",
+    "timestamp": "2025-03-12T14:20:20Z"
+  }
+}

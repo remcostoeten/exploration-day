@@ -1,0 +1,31 @@
+{
+  "packageManager": "bun",
+  "success": true,
+  "nodeVersion": "v23.9.0",
+  "metrics": {
+    "timing": {
+      "installTime": 1.629800979,
+      "startupTime": 1.164237648,
+      "totalTime": ,
+      "timeToReady": 1.164237648
+    },
+    "resources": {
+      "diskUsageMB": 630,
+      "fileCount": 24366,
+      "memoryUsageKB": 12672,
+      "cpuUsage":  0.0
+    }
+  },
+  "build": 
+[1;34m>>> Starting build benchmark for bun[0m
+
+[1;34m>>> Build for bun completed in 12.130017738 seconds[0m
+{"duration": 12.130017738, "exitCode": 1, "sizeInMB": 46, "output": "$ next build\n   ▲ Next.js 15.2.2\n\n   Creating an optimized production build ...\n ✓ Compiled successfully\n   Linting and checking validity of types ...\n\nFailed to compile.\n\n./src/app/api/chat/route.ts\n33:52  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any\n\n./src/app/api/chat/stream/route.ts\n2:10  Error: 'toast' is defined but never used.  @typescript-eslint/no-unused-vars\n\n./src/modules/chat/components/MessageInput.tsx\n1:8  Error: 'styles' is defined but never used.  @typescript-eslint/no-unused-vars\n\n./src/modules/chat/components/MessageList.tsx\n10:34  Error: 'onFeedback' is defined but never used.  @typescript-eslint/no-unused-vars\n\n./src/modules/chat/components/suggested-questions/SuggestedQuestions.tsx\n1:8  Error: 'styles' is defined but never used.  @typescript-eslint/no-unused-vars\n\n./src/modules/database/index.ts\n5:9  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any\n\n./src/modules/support/utils/scraper.ts\n78:14  Error: 'error' is defined but never used.  @typescript-eslint/no-unused-vars\n\n./src/views/SupportChatbot.tsx\n139:21  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any\n\ninfo  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/app/api-reference/config/eslint#disabling-rules\nerror: script \"build\" exited with code 1\n"},
+  "details": {
+    "installExitCode": 0,
+    "installCommand": "bun install",
+    "startCommand": "bun run dev",
+    "buildCommand": "bun run build",
+    "timestamp": "2025-03-12T14:20:53Z"
+  }
+}
